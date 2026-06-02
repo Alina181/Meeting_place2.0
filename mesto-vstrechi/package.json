@@ -1,0 +1,25 @@
+{
+  "name": "mesto-vstrechi",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "tsc -b && vite build",
+    "start": "npm run build && node server/launcher.mjs",
+    "offline": "node offline-server.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 9000",
+    "serve": "node server/launcher.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "qrcode.react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
+  "devDependencies": {}
+}

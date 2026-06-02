@@ -1,0 +1,14 @@
+Как запустить установку приложения
+
+1. Не открывайте dist/index.html через file:/// — браузер блокирует CSS, JS, manifest и PWA-установку.
+2. Для проверки на ноутбуке:
+   npm install
+   npm run build
+   npx vite preview --host 0.0.0.0 --port 9000
+   Затем открыть http://localhost:9000
+3. Открыть http://localhost:9000
+   cd mesto-vstrechi
+   npm run start  
+
+   Место Встречи запущено
+   Ноутбук: http://localhost:9000
